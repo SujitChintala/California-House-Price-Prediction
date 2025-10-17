@@ -6,7 +6,8 @@ import pandas as pd
 app = Flask(__name__)
 
 model = pickle.load(open('regression_model.pkl', 'rb'))
-scaler = pickle.load(open('scaler.pkl', 'rb'))
+polynomial_features = pickle.load(open('polynomial_features.pkl', 'rb'))
+scaler = pickle.load(open('standard_scaler.pkl', 'rb'))
 
 @app.route('/')
 def home():
