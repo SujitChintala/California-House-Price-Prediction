@@ -17,12 +17,12 @@ def home():
 def predict_api():
     data = request.json['data']
     print(data)
-    print(np.array(list(data.values())).reshape(1, -1))
-    new_data = scaler.transform(np.array(list(data.values())).reshape(1, -1))
-    output = model.predict(new_data)
-    print(output[0])
-    return jsonify(output[0])
-
+    new_data = np.array(list(data.values())).reshape(1, -1)
+    poly_data = polynomial_features.transform(new_data)
+    scaler_data = scaler.transform(poly_data)
+    pred = model.predict(scaler_data.reshape(1, -1))
+    return jsonify(pred[0])
+    
 if __name__ == '__main__':
     app.run(debug=True)
     
