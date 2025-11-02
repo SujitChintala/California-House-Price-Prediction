@@ -125,6 +125,11 @@ Quick start:
 git clone https://github.com/yourusername/youtube-recommendation-system.git
 cd youtube-recommendation-system
 
+# Create a virtual environment and activate it
+python -m venv venv
+venv\Scripts\activate
+
+
 # Install dependencies
 pip install -r requirements.txt
 
