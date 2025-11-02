@@ -7,7 +7,7 @@ import json
 
 class YouTubeRecommendationSystem:
     def __init__(self, data_path='data/merged_youtube_data.csv'):
-        """Initialize the recommendation system with data"""
+        """Initialize the recommendation engine with data"""
         print("Loading data...")
         self.df = pd.read_csv(data_path)
         self.df = self.df.drop_duplicates(subset=['video_id'], keep='first')
