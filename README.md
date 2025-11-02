@@ -361,14 +361,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- YouTube trending data from [Kaggle](https://www.kaggle.com/)
+- For YouTube trending data -> [Click here](https://www.kaggle.com/datasets/rsrishav/youtube-trending-video-dataset)
 - Icons from various open-source libraries
 - Inspired by modern recommendation systems
 
-## 📧 Contact
+## 👨‍💻 Author
 
-For questions or feedback, please open an issue on GitHub.
+- GitHub: [SujitChintala](https://github.com/SujitChintala)
+- LinkedIn: [Saai Sujit Chintala](https://www.linkedin.com/in/sujitchintala/)
+- Email: sujitchintala@gmail.com
 
 ---
 
-**Made with ❤️ for data science and machine learning enthusiasts**
+<div align="center">
+
+**⭐ Star this repository if you find it helpful!**
+
+</div>
